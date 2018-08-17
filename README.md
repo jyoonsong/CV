@@ -1,2 +1,2 @@
 # CV
-for versioning
+for version control
