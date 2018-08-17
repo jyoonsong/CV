@@ -1,5 +1,5 @@
 # CV
-for version control
+> for version control
 
 
 - TeX Live Utility
