@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  25 AUG 2018 15:26
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  25 AUG 2018 16:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -731,7 +731,7 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 45.
 Package hyperref Info: Option `breaklinks' set `true' on input line 45.
-No file CV.aux.
+(./CV.aux)
 \openout1 = `CV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -754,7 +754,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
 LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 55.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 55.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 55.
@@ -806,12 +806,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 55.
 LaTeX Info: Redefining \pageref on input line 55.
 LaTeX Info: Redefining \nameref on input line 55.
+
+(./CV.out) (./CV.out)
 \@outlinefile=\write3
 \openout3 = `CV.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 .................................................
 . fontspec info: "setup-math"
@@ -880,6 +878,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 55.
 LaTeX Font Info:    Calculating math sizes for size <8.6> on input line 73.
 
+
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.3> not available
 (Font)              size <5> substituted on input line 73.
 
@@ -898,71 +897,18 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.3> not available
 (Font)              size <5> substituted on input line 73.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 156.
+(Font)              <7> on input line 163.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 156.
-/Users/mac/Desktop/dev/CV/CV.tex:197: Misplaced alignment tab character &.
-l.197 Korean Operations &
-                          Production
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 242.
-
+(Font)              <5> on input line 163.
 [1
 
 ]
-\g__fontspec_family_FreeSerif.otf_int=\count266
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FreeSerif.otf(0)' created for font 'FreeSerif.otf' with options
-. [Ligatures=TeX,Path=./Fonts/GNUFreeFont/,ItalicFont=FreeSerifItalic,BoldFont=
-FreeSerifBold,BoldItalicFont=FreeSerifBoldItalic].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.:
-. <->"[./Fonts/GNUFreeFont/FreeSerif.otf]/OT:script=latn;language=DFLT;mapping=
-tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.:
-. <->"[./Fonts/GNUFreeFont/FreeSerif.otf]/OT:script=latn;language=DFLT;+smcp;ma
-pping=tex-text;"
-. - 'bold' (bx/n) with NFSS spec.:
-. <->"[./Fonts/GNUFreeFont/FreeSerifBold.otf]/OT:script=latn;language=DFLT;mapp
-ing=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.:
-. <->"[./Fonts/GNUFreeFont/FreeSerifBold.otf]/OT:script=latn;language=DFLT;+smc
-p;mapping=tex-text;"
-. - 'italic' (m/it) with NFSS spec.:
-. <->"[./Fonts/GNUFreeFont/FreeSerifItalic.otf]/OT:script=latn;language=DFLT;ma
-pping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
-. - 'bold italic' (bx/it) with NFSS spec.:
-. <->"[./Fonts/GNUFreeFont/FreeSerifBoldItalic.otf]/OT:script=latn;language=DFL
-T;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
-.................................................
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 439.
-
-[2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 610.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 610.
-
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 610.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 428.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 428.
  (./CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 610.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 610.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 428.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 428.
 
 
 Package rerunfilecheck Warning: File `CV.out' has changed.
@@ -970,27 +916,24 @@ Package rerunfilecheck Warning: File `CV.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `CV.out':
-(rerunfilecheck)             Before: 
-(rerunfilecheck)             After:  4079E289520E7BF070700D364689005D.
+(rerunfilecheck)             Before: 8D4CA86DC2A471A93EBF1A8D2B9E3B7A
+(rerunfilecheck)             After:  8FCFC1EED934FCF26777BDF5F029BFBE.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.7pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 610.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 428.
  ) 
 Here is how much of TeX's memory you used:
- 24481 strings out of 492970
- 469264 string characters out of 6133938
- 554577 words of memory out of 5000000
- 28339 multiletter control sequences out of 15000+600000
- 532719 words of font info for 62 fonts, out of 8000000 for 9000
+ 24455 strings out of 492970
+ 467721 string characters out of 6133938
+ 545747 words of memory out of 5000000
+ 28321 multiletter control sequences out of 15000+600000
+ 532671 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 46i,5n,67p,10443b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,5n,67p,10443b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV.pdf (3 pages).
+Output written on CV.pdf (2 pages).
