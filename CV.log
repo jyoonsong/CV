@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  27 OCT 2018 16:27
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  27 JAN 2019 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -824,34 +824,34 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.3> not available
 (Font)              size <5> substituted on input line 73.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 181.
+(Font)              <7> on input line 202.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 181.
+(Font)              <5> on input line 202.
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 512.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 532.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 512.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 532.
  (./CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 512.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 512.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 532.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 532.
 Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: F6B4E03AF9774FA53F06A454A539D48E.
+(rerunfilecheck)             Checksum: 3719AC19DE2BC83BDFB6CEF191CA183F.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.7pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 512.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 532.
  ) 
 Here is how much of TeX's memory you used:
  24457 strings out of 492970
  467733 string characters out of 6133938
- 548079 words of memory out of 5000000
+ 548078 words of memory out of 5000000
  28323 multiletter control sequences out of 15000+600000
  532671 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 46i,5n,67p,10443b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,5n,67p,10443b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CV.pdf (2 pages).
