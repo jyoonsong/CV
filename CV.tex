@@ -1,224 +1,609 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter
-% LaTeX Template
-% Version 1.11 (19/6/14)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Xavier Danaux (xdanaux@gmail.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Important note:
-% This template requires the moderncv.cls and .sty files to be in the same 
-% directory as this .tex file. These files provide the resume style and themes 
-% used for structuring the document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CV.tex
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% See "README.md" for instructions on compiling this document.
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Jaeyoon Song}
+\newcommand{\CVTitle}{Jaeyoon Song's Curriculum Vitae}
+\newcommand{\CVNote}{CV compiled on {\today}}
+\newcommand{\CVWebpage}{https://jaeyoon.io}
 
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfsubject={\CVWebpage},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
 
-\usepackage[scale=0.8]{geometry} % Reduce document margins
-%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
 
-
-%----------------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION SECTION
-%----------------------------------------------------------------------------------------
-
-\firstname{ShubhikaBhardwaj} % Your first name
-%\familyname{Bhardwaj} % Your last name
-
-% All information in this block is optional, comment out any lines you don't need
-\title{Curriculum Vitae}
-%\address{Address}{City, State Zip}
-\mobile{(+91) 9870503321}
-\email{shubhikabhardwaj@gmail.com,shubhika054btcse17@igdtuw.ac.in}
-%\homepage{www.linkedin.com/in/anmol-sikka-696537103/} {LinkedIn} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
-%\homepage{https://sites.google.com/view/sikka-anmol/home}{Homepage}
-%\extrainfo{DOB: September 15, 1997}
-%\photo[70pt][0.4pt]{pictures/House} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
-%\quote{"A witty and playful quotation" - John Smith}
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
-\makecvtitle % Print the CV title
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
 
-\section{Education}
+\Title{\CVAuthor}
 
-\cventry{2017--2021}{B Tech}{}{}{\textit{Department of Computer Science, \link[Indira Gandhi Delhi Technical University for Women]{https://www.igdtuw.ac.in/},Delhi, India Percentage 89.5/100}}{}
+\begin{SubTitle}
+\href{https://www.google.com/maps/place/1+Gwanak-ro,+Daehak-dong,+Gwanak-gu,+Seoul,+South+Korea}
+{Bldg.58, 1 Gwanak-ro, Gwanak-gu, Seoul, 08826, Korea, Republic of}
+\par
+\href{mailto:song@jaeyoon.io}
+{song@jaeyoon.io}
+\,\SubBulletSymbol\,
++82\,(02)\,880-6900
+\,\SubBulletSymbol\,
+\href{\CVWebpage}
+{\url{\CVWebpage}}
+\end{SubTitle}
 
-\cventry{2017}{Intermediate}{}{}{\textit{\link[Venkateshwar International School]{https://www.vis10dwarka.com/}, New Delhi, India 95.2\%}}{}
-
-\cventry{2015}{Matriculation}{}{}{\textit{\link[Venkateshwar International School]{https://www.vis10dwarka.com/}, New Delhi, India CGPA 10.0}}{}
-
-
-%----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
-%----------------------------------------------------------------------------------------
-
-
-% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
-% \cvlistdoubleitem{Piano}{}
-% \cvlistitem{Baseball}
-
-%----------------------------------------------------------------------------------------
-%	Achievements SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Scholastic and Curricular Achievements}
-
-\cvitem{Present}{Currently working in the Sponsorship team of  \textbf{TEDx IGDTU} one of the 36 team members in the university}
-\cvitem{Present} {Pursuing \textbf{Microsoft Authorized Certification } course in \textbf{Cross Platform Mobile App Development}}
-\cvitem{2017-18}{Headed the Enactus IGDTU as the\textbf{Project Leader}of Dharini project impacting the lives of \textbfup{1,500 underprivileged women}directly and indirectly}
-
-\cvitem{2017-18}{Fecilitated as the top 20 teams in \textbf{Enactus National Competition} for exceptional entrepreneurial action and social impact in field of \textbf{Menstrual Hygiene} and upliftment of \textbf{Rohingaya community} organised by KPMG India}
-\cvitem{2016-2017}{Recipient of the \textbf{Director's Special Award } and headed the student council as 'Prefect' of the school}
-\cvitem{2013}{ Felicitated with the prestigious \textbf{Aqua Award} for movie making on water conservation organised by the PVR CineArt and the Aqua Foundation}
-\cvitem{2014}{\textbf{State Winner of French Spell Bee}, Advanced Level organised by Paris based Le Frehindi Organisation}
+\begin{Body}
 
 
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\BigGap
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+\href{http://www.snu.ac.kr}
+{\textbf{Seoul National University}},
+Seoul, Korea, Republic of
+\hfill
+\DatestampYMD{2016}{03}{01} --
+Present
+
+\Gap
+\BulletItem
+B.A.A.,
+\href{http://cba.snu.ac.kr}
+{Business Administration}
+
+\Gap
+\BulletItem
+B.S.,
+\href{http://isc.snu.ac.kr}
+{Information Science (Double Major)}
+
+\Gap
+\BulletItem
+\href{http://cse.snu.ac.kr}
+{Computer Science and Engineering (Minor)}
+\begin{Detail}
+\Gap
+\SubBulletItem
+current GPA: 4.12/4.30 (total) 4.20/4.30 (major)
+\end{Detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RESEARCH EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\BigGap
+\Section
+{Research Experience}
+{Research Experience}
+{PDF:ResearchExperience}
+
+\Entry
+\href{https://www.kixlab.org}
+{\textbf{KAIST Interaction Lab}},
+Korea Advanced Institute of Science and Technology
+\hfill
+\DatestampYMD{2018}{12}{26} --
+Present
+
+\Gap
+\BulletItem
+Undergraduate Research Intern
+\begin{Detail}
+\SubBulletItem
+Project:
+Scaffolding Ill-structured Problem Solving Process in Online Chat
+\SubBulletItem
+Project:
+SuggestBot - Crowdsourcing Evidence for Debate using Amazon Mechanical Turk
+\SubBulletItem
+Supervisor:
+Prof.~Juho~Kim
+\end{Detail}
+
+\BigGap
+\Entry
+\href{http://hcil.snu.ac.kr/}
+{\textbf{Human-Computer Interaction Lab}},
+Seoul National University
+\hfill
+\DatestampYMD{2018}{06}{20} --
+\DatestampYMD{2018}{08}{31}
+
+\Gap
+\BulletItem
+Undergraduate Research Intern
+\begin{Detail}
+\SubBulletItem
+Project:
+SoundGlance - Briefing the Glanceable Cues of Web Pages for Screen Reader Users
+\SubBulletItem
+Supervisor:
+Prof.~Jinwook~Seo
+\end{Detail}
+
+    
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+\BigGap
+\Section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+\Entry
+Crowdsourcing,
+Online Discussion,
+Computer-Supported Cooperative Work,
+Future of Work.
 
 
-%----------------------------------------------------------------------------------------
-%	AWARDS SECTION
-%----------------------------------------------------------------------------------------
-%\section{Certifications}
+%%%%%%%%%%%%%%%%%%
+%% PUBLICATIONS %%
+%%%%%%%%%%%%%%%%%%
 
-%\cventry{April 2015 -- April 2017}{Certified LabVIEW Associate Developer}{\textsc{National Instruments}}{}{}{}
+\BigGap
+\Section
+{Publications}
+{Publications}
+{PDF:Publications}
 
+\SubSection
+{Journals}
+{Journals}
+{PDF:Journals}
 
-%----------------------------------------------------------------------------------------
-%	Research SECTION
-%----------------------------------------------------------------------------------------
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[88]}
 
+\BigGap
+\NumberedItem{[1]}
+\href{https://doi.org/10.3390/su10093001}
+{\underline{J.~Song} and C.~Kim,
+``What Is Needed for the Sustainable Success of Open Source Software Projects: Efficiency Analysis of Commit Production Process via Git,''
+\textit{Sustainability} (SCIE/SSCI),
+vol.~10,
+no.~9,
+\DatestampYM{2018}{08}.}
 
-%----------------------------------------------------------------------------------------
-%	Techincal Projects SECTION
-%----------------------------------------------------------------------------------------
+\endgroup
 
+\BigGap
+\SubSection
+{Posters}
+{Posters}
+{PDF:Posters}
 
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[88]}
 
+\BigGap
+\NumberedItem{[1]}
+\href{https://doi.org/10.1145/3290607.3312865}
+{\underline{J.~Song}, K.~Choe, J.~Jo, and J.~Seo,
+``SoundGlance: Briefing the Glanceable Cues of Web Pages for Screen Reader Users,''
+in \textit{Late Breaking Work of ACM CHI Conference on Human Factors in Computing Systems (CHI 2019)},
+ACM, New York, NY, USA,
+\DatestampYM{2019}{05}. (to appear)}
 
+\endgroup
 
-%----------------------------------------------------------------------------------------
-%	Course Projects SECTION
-%----------------------------------------------------------------------------------------
+% \BigGap
+% \SubSection
+% {Working Papers}
+% {Working Papers}
+% {PDF:WorkingPapers}
 
-\section{Course Projects}
-\cvitem{Autumn 2018}{\textbf{IGDTUW Database Management Project modelling the University : DBMS)}}
-\cvitem{}{\textit{Prof. DK Tayal, Department of Computer Science}}
+% % Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+% \begingroup
+% \renewcommand{\MaxNumberedItem}{[88]}
 
-\cvitem{March 2017}{\textbf{Toy Store: Computer Science}}
-\cvitem{}{\textit{Ms.Meenu Kumar, Computer Science}}
+% \BigGap
+% \NumberedItem{[1]}
+% Scaffolding Ill-structured Problem Solving Process in Online Chat
 
-\cvitem{August 2017}{\textbf{Internet Banking App:Prototype}}
-\cvitem{}{\textit{Developed for Esya,IIITD}}
-
-%----------------------------------------------------------------------------------------
-%	Institute Positions SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Institute Positions}
-
-\cvitem{September 2018-Present}{\textit{\textbf{Head Coordinator, Media Team| \link[Innerve]{https://innerve-igdtuw.in/}, IGDTUW}}}
-\cvitem{}{\textit{Technical Festival}}
-
-\cvitem{December 2018-Present } {\textit{\textbf{Head Coordinator,Event Management Team|\link[Taarangana]{http://www.taarangana.com/}, IGDTUW
-}}}
-
-\cvitem{September 2017}{\textit{\textbf{Coordinator, Media Team| \link[Innerve]{https://innerve-igdtuw.in/}, IGDTUW}}}
-\cvitem{}{\textit{Technical Festival}}
-
-
-\cvitem{February 2018} {\textit{\textbf{Coordinator,Creative Team | \link[Taarangana]{http://www.taarangana.com/}, IGDTUW
-}}}
-
-
-%----------------------------------------------------------------------------------------
-%	Skills SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Technical Skills}
-%
-\cvitem{Programming}{\textsc{Python, Java, C++, C, SQL, HTML}}
-\cvitem{Software}{\textsc{\LATEX, Protopie, Atom, MS Word, MS Excel, MS Powerpoint, Javasciprt}}
-\cvitem{Web Development}{\textsc{FrontEnd- HTML, CSS, Bootstrap, Javascript, jquery,BackEnd- Command Line, Python, Django}}
-\cvitem{Editing}{\textsc{Adobe Premiere Pro, Adobe Photoshop,Filmora Adobe Lightroom}}
-
-%----------------------------------------------------------------------------------------
-%	Coursework SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Coursework}
-
-%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
-
-\cvitem{Core Courses}{Discrete Mathematics, Database Management Systems, Data Structure, Object Oriented Programming, Analog and Digital Electronics, Advance Engineering Mathematics*, Computer Organization and Architecture*, Analysis and of Algorithms Operating System*,Object Oriented Software Engineering*}
+% \endgroup
 
 
-\cvitem{Lab Courses}{Database Management Systems Lab, Data Structure Lab, Object Oriented Programming using C++ and JAVA Lab, Analog and Digital Electronics Lab, Computer Organization and Architecture Lab*, Analysis and Design of Algorithms Lab Operating System Lab (using LINUX as Case Study)*,Object Oriented Software Engineering Lab*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS & SCHOLARSHIPS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\cvitem{}{}
-\cvitem{}{* -To be completed by Apr 2019}
-%\cvlistdoubleitem{Basics of Electricity & Magnetism}{Computer Programming and Utilization}
+\BigGap
+\Section
+{Awards \&\newline
+Scholarships}
+{Awards \& Scholarships}
+{PDF:AwardsAndScholarships}
 
-%----------------------------------------------------------------------------------------
-%	COMMUNICATION SKILLS SECTION
-%----------------------------------------------------------------------------------------
+\SubSection
+{Awards}
+{Awards}
+{PDF:Awards}
+
+\BigGap
+\BulletItem
+\href{https://sdeprogram.snu.ac.kr}
+{Student-directed education,
+Outstanding Research Award
+\hfill
+\DatestampYMD{2019}{03}{03}
+\begin{Detail}
+\Item
+Awarded by Faculty of Liberal Education, Seoul National University
+\end{Detail}}
+
+\Gap
+\BulletItem
+\href{https://research.samsung.com/aichallenge/hackathon}
+{Samsung AI Challenge,
+Top Ten Finalist
+\hfill
+\DatestampYMD{2018}{09}{03}
+\begin{Detail}
+\Item
+Awarded by Samsung Research
+\end{Detail}}
+
+\Gap
+\BulletItem
+\href{http://www.hangyo.com/news/article.html?no=85459}
+{Undergraduate Research Presentation Competition,
+Grand Prize
+\hfill
+\DatestampYMD{2018}{05}{10}
+\begin{Detail}
+\Item
+Awarded by Korean Production \& Operations Management Society (KOPOMS).
+\end{Detail}}
+
+\Gap
+\BulletItem
+Annual Likelion Ideathon,
+Top Ten Winner
+\hfill
+\DatestampYMD{2017}{07}{15}
+\begin{Detail}
+\Item
+Awarded \$1,000 AWS credits by Likelion and Amazon Korea.
+\end{Detail}
+
+\Gap
+\BulletItem
+School Service Development Tournament,
+Winner
+\hfill
+\DatestampYM{2017}{02}
+\begin{Detail}
+\Item
+Awarded by SNULife--a Seoul National University student community.
+\end{Detail}
+
+\BigGap
+\SubSection
+{Scholarships}
+{Scholarships}
+{PDF:Scholarships}
+
+\BigGap
+\BulletItem
+Yangyoung Foundation Scholarship
+\hfill
+\DatestampY{2018} --
+Present
+\begin{Detail}
+\Item
+Based on both merit and need.
+\end{Detail}
+
+\Gap
+\BulletItem
+Samsung Convergence Software Course Scholarship
+\hfill
+\DatestampYM{2018}{06}
+\begin{Detail}
+\Item
+Scholarship for successfully finishing the Samsung Convergence Software Course (SCSC) program.
+\end{Detail}
+
+\Gap
+\BulletItem
+Eminence Scholarship (Full),
+Seoul National University
+\hfill
+\DatestampY{2016} --
+\DatestampY{2017}
+\begin{Detail}
+\Item
+Merit-based.
+\end{Detail}
 
 
-%----------------------------------------------------------------------------------------
-%	LANGUAGES SECTION
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%
+%% EXPERIENCES %%
+%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Languages}
+\newpage
 
-\cvitemwithcomment{English}{Fluent}{}
-\cvitemwithcomment{Hindi}{Fluent}{}
-\cvitemwithcomment{French}{Intermediate}{}
-%\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+\BigGap
+\Section
+{Work Experience}
+{Work Experience}
+{PDF:WorkExpeirence}
+
+\Entry
+\href{https://likelion.net}
+{\textbf{Likelion}},
+Seoul National University
+\hfill
+\DatestampYM{2016}{03} --
+\DatestampYM{2018}{06}
+
+\Gap
+\BulletItem
+Administrative Member
+\begin{Detail}
+\SubBulletItem
+Likelion is non-profit organization where administrative members help the other students to study web technologies and build a web service by themselves.
+\end{Detail}
+
+\BigGap
+\Entry
+\href{https://chartmetric.io}
+{\textbf{Chartmetric}},
+Palo Alto, California, USA
+\hfill
+\DatestampYM{2017}{08} --
+\DatestampYM{2017}{11}
+
+\Gap
+\BulletItem
+Intern, Front-end Engineering
+\begin{Detail}
+\SubBulletItem
+Chartmetric is a startup providing tools to track, measure, and analyze music big data.
+\end{Detail}
 
 
-%----------------------------------------------------------------------------------------
-%	COVER LETTER
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%
+%% WEB PROJECTS %%
+%%%%%%%%%%%%%%%%%%%%%%%
 
-% To remove the cover letter, comment out this entire block
+\Section
+{Personal Projects}
+{Personal Projects}
+{PDF:PersonalProjects}
 
-%\clearpage
+\SubSection
+{Web Projects}
+{Web Projects}
+{PDF:WebProjects}
 
-%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
-%\date{\today} % Letter date
-%\opening{Dear Sir or Madam,} % Opening greeting
-%\closing{Sincerely yours,} % Closing phrase
-%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+\BigGap
+\BulletItem
+\href{https://jaeyoon.io/dt4c}
+{Visualization Project (https://jaeyoon.io/dt4c)
+\hfill
+\DatestampYM{2018}{10} --
+\DatestampYM{2018}{11}
+\begin{Detail}
+\Item
+Solo Work / Adobe Illustrator, D3.js
+\end{Detail}}
 
-%\makelettertitle % Print letter title
+\Gap
+\BulletItem
+\href{https://jaeyoon.io/infovis}
+{HCI Team Project (https://jaeyoon.io/infovis)
+\hfill
+\DatestampYM{2018}{05} --
+\DatestampYM{2018}{06}
+\begin{Detail}
+\Item
+Team of two people / D3.js
+\end{Detail}}
 
-%\lipsum[1-3] % Dummy text
+\Gap
+\BulletItem
+\href{https://www.bigpearl.io/company}
+{Startup Website (https://www.bigpearl.io)
+\hfill
+\DatestampYM{2018}{01} --
+\DatestampYM{2018}{02}
+\begin{Detail}
+\Item
+Partial work / React.js
+\end{Detail}}
 
-%\makeletterclosing % Print letter signature
+\Gap
+\BulletItem
+\href{https://jaeyoon.io}
+{The Cube (https://jaeyoon.io)
+\hfill
+\DatestampYM{2017}{10} --
+\DatestampYM{2017}{11}
+\begin{Detail}
+\Item
+Solo work / Vanilla JavaScript.
+\end{Detail}}
 
-%----------------------------------------------------------------------------------------
+\Gap
+\BulletItem
+\href{http://shashagungun.com}
+{Shashagungun (http://shashagungun.com)
+\hfill
+\DatestampYM{2016}{12} --
+\DatestampYM{2017}{02}
+\begin{Detail}
+\Item
+Team lead and development / jQuery \& Ruby on Rails.
+\end{Detail}}
+
+\Gap
+\BulletItem
+\href{http://scsc.snu.ac.kr}
+{SNU Computer Study Club Website (https://scsc.snu.ac.kr)
+\hfill
+\DatestampYM{2015}{12} --
+\DatestampYM{2016}{01}
+\begin{Detail}
+\Item
+Front-end Development
+\end{Detail}}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%
+% %% SUBJECTS %%
+% %%%%%%%%%%%%%%%%%%%%%%%
+% \BigGap
+% \Section
+% {Relevant Coursework}
+% {Relevant Coursework}
+% {PDF:RelevantCoursework}
+
+% \Entry
+% \textbf{HCI and Communication},
+% Dept. of Communication
+% \hfill
+% \DatestampY{2018} Fall
+
+% \Gap
+% \BulletItem
+% Corresponds to CS473 at KAIST
+
+% \BigGap
+% \Entry
+% \textbf{Human-Computer Interaction},
+% Dept. of Computer Science and Engineering
+% \hfill
+% \DatestampY{2018} Spring
+
+% \Gap
+% \BulletItem
+% Corresponds to CS374/CS472 at KAIST
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+\BigGap
+\Section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+\SubSection
+{Languages}
+{Languages}
+{PDF:Languages}
+
+\BigGap
+\BulletItem
+Korean: Native proficiency.
+
+\Gap
+\BulletItem
+English: Full professional proficiency.
+
+\Gap
+\BulletItem
+Japanese: Intermediate (reading); basic (speaking, writing).
+
+\BigGap
+\SubSection
+{Programming}
+{Programming}
+{PDF:Programming}
+
+\BigGap
+\BulletItem
+\textbf{JavaScript} (TweenLite.js, D3.js, jQuery, ...), Java, C++.
+
+\Gap
+\BulletItem
+React.js,
+SASS/SCSS.
+
+\Gap
+\BulletItem
+Ruby on Rails.
+
+\BigGap
+\SubSection
+{Others}
+{Others}
+{PDF:Others}
+
+\BigGap
+\BulletItem
+Sketch,
+Adobe Photoshop.
+
+\Gap
+\BulletItem
+{\LaTeX},
+Microsoft Word,
+Microsoft Excel,
+Microsoft PowerPoint.
+
+\end{Body}
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+\BigGap
+\UseNoteFont%
+\null\hfill%
+[\textit{\CVNote}]
 
 \end{document}
