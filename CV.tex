@@ -12,7 +12,7 @@
 
 % See "README.md" for instructions on compiling this document.
 
-\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{template}
 % Class options:
 % a4paper, letterpaper, nonstopmode, draftmode
 % MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
@@ -60,14 +60,10 @@ breaklinks}
 
 \Title{\CVAuthor}
 
+\Gap
 \begin{SubTitle}
-\href{https://www.google.com/maps/place/1+Gwanak-ro,+Daehak-dong,+Gwanak-gu,+Seoul,+South+Korea}
-{Bldg.58, 1 Gwanak-ro, Gwanak-gu, Seoul, 08826, Korea, Republic of}
-\par
 \href{mailto:song@jaeyoon.io}
 {song@jaeyoon.io}
-\,\SubBulletSymbol\,
-+82\,(02)\,880-6900
 \,\SubBulletSymbol\,
 \href{\CVWebpage}
 {\url{\CVWebpage}}
@@ -102,19 +98,8 @@ B.A.A.,
 
 \Gap
 \BulletItem
-B.S.,
-\href{http://isc.snu.ac.kr}
-{Information Science (Double Major)}
-
-\Gap
-\BulletItem
 \href{http://cse.snu.ac.kr}
 {Computer Science and Engineering (Minor)}
-\begin{Detail}
-\Gap
-\SubBulletItem
-current GPA: 4.12/4.30 (total) 4.20/4.30 (major)
-\end{Detail}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %% RESEARCH EXPERIENCE %%
@@ -130,22 +115,30 @@ current GPA: 4.12/4.30 (total) 4.20/4.30 (major)
 {\textbf{KAIST Interaction Lab}},
 Korea Advanced Institute of Science and Technology
 \hfill
-\DatestampYMD{2018}{12}{26} --
-Present
+\DatestampYM{2018}{12} -- 
+\DatestampYM{2019}{2},
 
 \Gap
 \BulletItem
 Undergraduate Research Intern
+\hfill
+\DatestampYM{2019}{6} --
+\DatestampYM{2019}{8}
+
+\Gap
 \begin{Detail}
 \SubBulletItem
+Supervisor:
+Prof.~Juho~Kim
+\SubBulletItem
 Project:
-Scaffolding Ill-structured Problem Solving Process in Online Chat
+SolutionChat - Real-time Moderator Support for Chat-based Structured Discussion
 \SubBulletItem
 Project:
 SuggestBot - Crowdsourcing Evidence for Debate using Amazon Mechanical Turk
 \SubBulletItem
-Supervisor:
-Prof.~Juho~Kim
+Project:
+Credibility Assessment and Critical Thinking through Microtasks while Reading
 \end{Detail}
 
 \BigGap
@@ -161,12 +154,14 @@ Seoul National University
 \BulletItem
 Undergraduate Research Intern
 \begin{Detail}
-\SubBulletItem
-Project:
-SoundGlance - Briefing the Glanceable Cues of Web Pages for Screen Reader Users
+
 \SubBulletItem
 Supervisor:
 Prof.~Jinwook~Seo
+\SubBulletItem
+Project:
+SoundGlance - Briefing the Glanceable Cues of Web Pages for Screen Reader Users
+
 \end{Detail}
 
     
@@ -184,7 +179,6 @@ Crowdsourcing,
 Online Discussion,
 Computer-Supported Cooperative Work,
 Future of Work.
-
 
 %%%%%%%%%%%%%%%%%%
 %% PUBLICATIONS %%
@@ -208,12 +202,17 @@ Future of Work.
 \BigGap
 \NumberedItem{[1]}
 \href{https://doi.org/10.3390/su10093001}
-{\underline{J.~Song} and C.~Kim,
-``What Is Needed for the Sustainable Success of Open Source Software Projects: Efficiency Analysis of Commit Production Process via Git,''
+\underline{J.~Song} and C.~Kim,
+\textbf{What Is Needed for the Sustainable Success of Open Source Software Projects: Efficiency Analysis of Commit Production Process via Git},
 \textit{Sustainability} (SCIE/SSCI),
 vol.~10,
 no.~9,
-\DatestampYM{2018}{08}.}
+\DatestampYM{2018}{08}.
+\vspace{2mm}\newline
+{\small{
+  What is needed for open source software projects to be efficient? Linus' Law celebrates the `many eyeballs' as a key advantage of open source projects. 
+  Nevertheless, when it comes to efficiency, `many eyeballs' could be a double-bladed sword. By mining and analyzing the data collected from GitHub open source projects, this paper performed data envelopment analysis (DEA) on 34 open source projects.
+}}
 
 \endgroup
 
@@ -228,32 +227,141 @@ no.~9,
 \renewcommand{\MaxNumberedItem}{[88]}
 
 \BigGap
-\NumberedItem{[1]}
+\NumberedItem{[2]}
 \href{https://doi.org/10.1145/3290607.3312865}
-{\underline{J.~Song}, K.~Choe, J.~Jo, and J.~Seo,
-``SoundGlance: Briefing the Glanceable Cues of Web Pages for Screen Reader Users,''
-in \textit{Late Breaking Work of ACM CHI Conference on Human Factors in Computing Systems (CHI 2019)},
+\underline{J.~Song}, K.~Choe, J.~Jo, and J.~Seo,
+\textbf{SoundGlance: Briefing the Glanceable Cues of Web Pages for Screen Reader Users,}
+\textit{ACM CHI Conference on Human Factors in Computing Systems (CHI 2019 Late Breaking Work)},
 ACM, New York, NY, USA,
-\DatestampYM{2019}{05}. (to appear)}
+\DatestampYM{2019}{05}.
+\vspace{2mm}\newline
+{\small{
+  Although screen readers can convey the textual information or structural properties of a web page, they cannot deliver its overall impression. Such a limitation hinders blind web users from obtaining an overview of the website, which non-blind people can do in a short time. 
+  SoundGlance is a novel application that briefly delivers an auditory summary of web pages. SoundGlance supports the screen reader users by converting the important glanceable cues of the pages into sound.
+  To automatically extract the glanceable cues, we trained a convolutional neural network (CNN) with the annotations on the screenshots of 39 web pages.
+}}
 
 \endgroup
 
-% \BigGap
-% \SubSection
-% {Working Papers}
-% {Working Papers}
-% {PDF:WorkingPapers}
+\newpage
 
-% % Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
-% \begingroup
-% \renewcommand{\MaxNumberedItem}{[88]}
+%%%%%%%%%%%%%%%%%%
+%% PUBLICATIONS %%
+%%%%%%%%%%%%%%%%%%
 
-% \BigGap
-% \NumberedItem{[1]}
-% Scaffolding Ill-structured Problem Solving Process in Online Chat
+\BigGap
+\Section
+{Research Projects}
+{Research Projects}
+{PDF:OngoingProjects}
 
-% \endgroup
+\SubSection
+{Papers Under Review}
+{Papers Under Review}
+{PDF:UnderReview}
 
+% Declare a new group to limit the scope of \MaxNumberedItem to this subsection.
+\begingroup
+\renewcommand{\MaxNumberedItem}{[88]}
+
+\BigGap
+\NumberedItem{[3]}
+S.~Lee, \underline{J.~Song}, K.~Choe, S.~Park, J.~Kim, J.~Kim, and E.~Ko,
+\textbf{SolutionChat: Real-time Moderator Support for Chat-based Structured Discussion},
+submitted to \textit{ACM CHI Conference on Human Factors in Computing Systems 2020 (CHI 2020).}
+\vspace{2mm}\newline
+{\small{
+  Online chat is an emerging channel for discussing community problems. It is common practice for communities to assign dedicated moderators to maintain a structured discussion and enhance the problem-solving experience. However, due to the synchronous nature of online chat, moderators face a high managerial overhead in tasks like discussion stage management, opinion summarization, and consensus-building support. SolutionChat is a system that assists moderators with facilitating a structured discussion for community problem-solving.
+  With SolutionChat, we envision untrained moderators to effectively facilitate chat-based discussions of important community matters.
+}}
+
+
+\BigGap
+\NumberedItem{[4]}
+D.~Shin, \underline{J.~Song}, S.~Song, J.~Park, J.~Lee and S.~Jun,
+\textbf{TalkingBoogie: Collaborative Mobile AAC System for Non-verbal Children with Developmental Disabilities and Their Caregivers},
+submitted to \textit{ACM CHI Conference on Human Factors in Computing Systems 2020 (CHI 2020).}
+\vspace{2mm}\newline
+{\small{
+  Augmentative and alternative communication (AAC) technologies are widely used to help non-verbal children enable communication. For AAC-aided communication to be successful, caregivers should support children with consistent intervention strategies in various settings. TalkingBoogie supports caregivers to effectively collaborate with one another and create a shared understanding of intervention strategies.
+}}
+
+\endgroup
+
+\BigGap
+\SubSection
+{Work in Progress}
+{Work in Progress}
+{PDF:WorkInProgress}
+
+\begingroup
+\renewcommand{\MaxNumberedItem}{[88]}
+
+\BigGap
+\NumberedItem{[5]}
+\textbf{Credibility Assessment and Critical Thinking through Microtasks while Reading}, advised by Prof. Juho Kim
+\vspace{2mm}\newline
+{\small{
+  Online chat is an emerging channel for discussing community problems. It is common practice for communities to assign dedicated moderators to maintain a structured discussion and enhance the problem-solving experience. However, due to the synchronous nature of online chat, moderators face a high managerial overhead in tasks like discussion stage management, opinion summarization, and consensus-building support. SolutionChat is a system that assists moderators with facilitating a structured discussion for community problem-solving.
+  With SolutionChat, we envision untrained moderators to effectively facilitate chat-based discussions of important community matters.
+}}
+
+\endgroup
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%
+% %% SUBJECTS %%
+% %%%%%%%%%%%%%%%%%%%%%%%
+\BigGap
+\Section
+{Relevant Coursework}
+{Relevant Coursework}
+{PDF:RelevantCoursework}
+
+\Entry
+\textbf{Seminar in Organizational Behavior},
+Dept. of Business Administration
+\hfill
+\DatestampY{2019} Spring
+
+\Gap
+\BulletItem
+Graduate-level course that required reading 40 journal articles in total, writing a research proposal every week, and reviewing the proposals of other students during the class discussion. (Final grade: A0)
+
+\BigGap
+\Entry
+\textbf{Organizational Psychology},
+Dept. of Psychology
+\hfill
+\DatestampY{2019} Spring
+
+\Gap
+\BulletItem
+Major theories and issues in the field of organizational psychology. (Final grade: A+)
+
+\BigGap
+\Entry
+\textbf{HCI and Communication},
+Dept. of Communication
+\hfill
+\DatestampY{2018} Fall
+
+\Gap
+\BulletItem
+Topics in robot journalism, human-robot interaction, and social computing. (Final grade: A+)
+
+\BigGap
+\Entry
+\textbf{Human-Computer Interaction},
+Dept. of Computer Science and Engineering,
+\hfill
+\DatestampY{2018} Spring
+
+\Gap
+\BulletItem
+Introduction to HCI and information visualization. (Final grade: A+)
+
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% AWARDS & SCHOLARSHIPS %%
@@ -368,62 +476,47 @@ Seoul National University
 Merit-based.
 \end{Detail}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%
-%% EXPERIENCES %%
+%% EXPERIENCE %%
 %%%%%%%%%%%%%%%%%%%%%%%
 
-\newpage
+\Section
+{Additional Experience}
+{Additional Experience}
+{PDF:AdditionalExperience}
+
+\SubSection
+{Work Experience and Club Activities}
+{Work Experience and Club Activities}
+{PDF:ClubActivities}
 
 \BigGap
-\Section
-{Work Experience}
-{Work Experience}
-{PDF:WorkExpeirence}
-
-\Entry
+\BulletItem
 \href{https://likelion.net}
-{\textbf{Likelion}},
-Seoul National University
+{\textbf{Likelion}, Web Programming Club, Seoul National University
 \hfill
 \DatestampYM{2016}{03} --
 \DatestampYM{2018}{06}
+}
+\begin{Detail}
+  \SubBulletItem
+  In Likelion, I tutored peer students on basic web programming.
+\end{Detail}
 
 \Gap
 \BulletItem
-Administrative Member
-\begin{Detail}
-\SubBulletItem
-Likelion is non-profit organization where administrative members help the other students to study web technologies and build a web service by themselves.
-\end{Detail}
-
-\BigGap
-\Entry
 \href{https://chartmetric.io}
-{\textbf{Chartmetric}},
-Palo Alto, California, USA
+{\textbf{Chartmetric}, Intern, Front-end Engineering
 \hfill
 \DatestampYM{2017}{08} --
 \DatestampYM{2017}{11}
-
-\Gap
-\BulletItem
-Intern, Front-end Engineering
+}
 \begin{Detail}
-\SubBulletItem
-Chartmetric is a startup providing tools to track, measure, and analyze music big data.
+  \SubBulletItem
+  Chartmetric is a startup based in Palo Alto, providing tools to track, measure, and analyze music big data.
 \end{Detail}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%
-%% WEB PROJECTS %%
-%%%%%%%%%%%%%%%%%%%%%%%
-
-\Section
-{Personal Projects}
-{Personal Projects}
-{PDF:PersonalProjects}
-
+\BigGap
 \SubSection
 {Web Projects}
 {Web Projects}
@@ -432,27 +525,19 @@ Chartmetric is a startup providing tools to track, measure, and analyze music bi
 \BigGap
 \BulletItem
 \href{https://jaeyoon.io/dt4c}
-{Visualization Project (https://jaeyoon.io/dt4c)
+{Information Visualization (https://jaeyoon.io/dt4c)
 \hfill
 \DatestampYM{2018}{10} --
 \DatestampYM{2018}{11}
-\begin{Detail}
-\Item
-Solo Work / Adobe Illustrator, D3.js
-\end{Detail}}
-
+}
 \Gap
 \BulletItem
 \href{https://jaeyoon.io/infovis}
-{HCI Team Project (https://jaeyoon.io/infovis)
+{Visualization of Korean Independence Movement (https://jaeyoon.io/infovis)
 \hfill
 \DatestampYM{2018}{05} --
 \DatestampYM{2018}{06}
-\begin{Detail}
-\Item
-Team of two people / D3.js
-\end{Detail}}
-
+}
 \Gap
 \BulletItem
 \href{https://www.bigpearl.io/company}
@@ -460,23 +545,15 @@ Team of two people / D3.js
 \hfill
 \DatestampYM{2018}{01} --
 \DatestampYM{2018}{02}
-\begin{Detail}
-\Item
-Partial work / React.js
-\end{Detail}}
-
+}
 \Gap
 \BulletItem
 \href{https://jaeyoon.io}
-{The Cube (https://jaeyoon.io)
+{The Cube (https://jaeyoon.io/cube)
 \hfill
 \DatestampYM{2017}{10} --
 \DatestampYM{2017}{11}
-\begin{Detail}
-\Item
-Solo work / Vanilla JavaScript.
-\end{Detail}}
-
+}
 \Gap
 \BulletItem
 \href{http://shashagungun.com}
@@ -484,11 +561,7 @@ Solo work / Vanilla JavaScript.
 \hfill
 \DatestampYM{2016}{12} --
 \DatestampYM{2017}{02}
-\begin{Detail}
-\Item
-Team lead and development / jQuery \& Ruby on Rails.
-\end{Detail}}
-
+}
 \Gap
 \BulletItem
 \href{http://scsc.snu.ac.kr}
@@ -496,41 +569,7 @@ Team lead and development / jQuery \& Ruby on Rails.
 \hfill
 \DatestampYM{2015}{12} --
 \DatestampYM{2016}{01}
-\begin{Detail}
-\Item
-Front-end Development
-\end{Detail}}
-
-
-% %%%%%%%%%%%%%%%%%%%%%%%
-% %% SUBJECTS %%
-% %%%%%%%%%%%%%%%%%%%%%%%
-% \BigGap
-% \Section
-% {Relevant Coursework}
-% {Relevant Coursework}
-% {PDF:RelevantCoursework}
-
-% \Entry
-% \textbf{HCI and Communication},
-% Dept. of Communication
-% \hfill
-% \DatestampY{2018} Fall
-
-% \Gap
-% \BulletItem
-% Corresponds to CS473 at KAIST
-
-% \BigGap
-% \Entry
-% \textbf{Human-Computer Interaction},
-% Dept. of Computer Science and Engineering
-% \hfill
-% \DatestampY{2018} Spring
-
-% \Gap
-% \BulletItem
-% Corresponds to CS374/CS472 at KAIST
+}
 
 %%%%%%%%%%%%
 %% SKILLS %%
@@ -553,10 +592,18 @@ Korean: Native proficiency.
 \Gap
 \BulletItem
 English: Full professional proficiency.
+\begin{Detail}
+\SubBulletItem
+GRE - Verbal 164 / Quantitative 170 / Writing 4.5 (Oct 2019)
+\end{Detail}
 
 \Gap
 \BulletItem
 Japanese: Intermediate (reading); basic (speaking, writing).
+\begin{Detail}
+\SubBulletItem
+JLPT - N2 (Jan 2014)
+\end{Detail}
 
 \BigGap
 \SubSection
@@ -566,16 +613,16 @@ Japanese: Intermediate (reading); basic (speaking, writing).
 
 \BigGap
 \BulletItem
-\textbf{JavaScript} (TweenLite.js, D3.js, jQuery, ...), Java, C++.
+\textbf{JavaScript} (React.js, TweenLite.js, D3.js, jQuery, ...)
 
 \Gap
 \BulletItem
-React.js,
-SASS/SCSS.
+Ruby on Rails,
+SASS/SCSS
 
 \Gap
 \BulletItem
-Ruby on Rails.
+Python, Java, C++
 
 \BigGap
 \SubSection
@@ -585,7 +632,7 @@ Ruby on Rails.
 
 \BigGap
 \BulletItem
-Sketch,
+Sketch App,
 Adobe Photoshop.
 
 \Gap
