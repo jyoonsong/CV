@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  25 OCT 2019 12:56
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  25 OCT 2019 13:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -849,31 +849,25 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 568.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 721.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 750.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 721.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 750.
  (./CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 721.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 721.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 750.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 750.
+Package rerunfilecheck Info: File `CV.out' has not changed.
+(rerunfilecheck)             Checksum: 8115F574F420AED385427647340F29F6.
 
-
-Package rerunfilecheck Warning: File `CV.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CV.out':
-(rerunfilecheck)             Before: 440E994FC52ACC7298268CF5F4DEAB59
-(rerunfilecheck)             After:  8115F574F420AED385427647340F29F6.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.7pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 721.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 750.
  ) 
 Here is how much of TeX's memory you used:
  24461 strings out of 492970
  467592 string characters out of 6133938
- 547458 words of memory out of 5000000
+ 547457 words of memory out of 5000000
  28328 multiletter control sequences out of 15000+600000
  532671 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
