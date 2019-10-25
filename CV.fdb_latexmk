@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1571934411 "/Users/mac/Desktop/dev/CV/CV.tex" "/Users/mac/Desktop/dev/CV/CV.pdf" "CV" 1571934411
-  "/Users/mac/Desktop/dev/CV/CV.aux" 1571934411 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/mac/Desktop/dev/CV/CV.tex" 1571934409 14504 a61e2be5179547767de4bb98e367873d ""
+["pdflatex"] 1571967749 "/Users/mac/Desktop/dev/CV/CV.tex" "/Users/mac/Desktop/dev/CV/CV.pdf" "CV" 1571967749
+  "/Users/mac/Desktop/dev/CV/CV.aux" 1571967749 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/mac/Desktop/dev/CV/CV.tex" 1571967747 17778 618b20b8a86c4696460fed7a3a3a3bb3 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1480098815 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -43,9 +43,9 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "CV.tex" 1571934409 14504 a61e2be5179547767de4bb98e367873d ""
-  "template.cls" 1571800460 12372 518a1247f4e0161c6235d529861ada75 ""
+  "CV.tex" 1571967747 17778 618b20b8a86c4696460fed7a3a3a3bb3 ""
+  "template.cls" 1571936080 12372 0708f54f99b06e1ca9aacb46d11a0e91 ""
   (generated)
+  "/Users/mac/Desktop/dev/CV/CV.pdf"
   "/Users/mac/Desktop/dev/CV/CV.log"
   "CV.log"
-  "/Users/mac/Desktop/dev/CV/CV.pdf"
