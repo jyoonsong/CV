@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  25 OCT 2019 18:42
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  30 OCT 2019 16:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -838,23 +838,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 419.
+(hyperref)                removing `\newline' on input line 418.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 547.
+(hyperref)                removing `\newline' on input line 546.
 
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 568.
+(hyperref)                removing `\newline' on input line 567.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 750.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 749.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 750.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 749.
  (./CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 750.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 750.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 749.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 749.
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: 8115F574F420AED385427647340F29F6.
 
@@ -862,7 +862,7 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.7pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 750.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 749.
  ) 
 Here is how much of TeX's memory you used:
  24461 strings out of 492970
