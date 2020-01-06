@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  15 DEC 2019 14:25
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  4 JAN 2020 12:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -830,47 +830,47 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.3> not available
 (Font)              size <5> substituted on input line 72.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 210.
+(Font)              <7> on input line 216.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 210.
+(Font)              <5> on input line 216.
 [1
 
 ] [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 426.
+(hyperref)                removing `\newline' on input line 423.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 554.
+(hyperref)                removing `\newline' on input line 551.
 
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 575.
+(hyperref)                removing `\newline' on input line 572.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 757.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 754.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 757.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 754.
  (./CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 757.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 757.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 754.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 754.
 Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: E612B05ACE03C7BFCCB6EC808FAFE77F.
+(rerunfilecheck)             Checksum: F69F8ED6F1F03F09D16651D9733436CA.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.7pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 757.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 754.
  ) 
 Here is how much of TeX's memory you used:
- 24461 strings out of 492970
- 467592 string characters out of 6133938
- 547458 words of memory out of 5000000
- 28328 multiletter control sequences out of 15000+600000
+ 24460 strings out of 492970
+ 467569 string characters out of 6133938
+ 547404 words of memory out of 5000000
+ 28327 multiletter control sequences out of 15000+600000
  532671 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 46i,5n,67p,10443b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,5n,67p,10443b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CV.pdf (4 pages).
